@@ -12,10 +12,10 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        The purpsoe of development is you can create anything you want. I can build you CRM tables stock trading or E-Commerce
+        I'm passionate software developer I can create anything you want. Beauty of coding is that it is infinite.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>
-        Learn More
+      <Button onClick={() => window.location = 'https://github.com/gukanozadze/portfolio-nextjs'}>
+        Code on github
       </Button>
     </LeftSection>
   </Section>
