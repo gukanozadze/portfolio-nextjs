@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponent
 import Button from "../../styles/GlobalComponents/Button"
 import { LeftSection } from "./HeroStyles"
 
+const url = 'https://github.com/gukanozadze/portfolio-nextjs'
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
@@ -14,8 +15,8 @@ const Hero = (props) => (
       <SectionText>
         I'm passionate software developer I can create anything you want. Beauty of coding is that it is infinite.
       </SectionText>
-      <Button onClick={() => window.location = 'https://github.com/gukanozadze/portfolio-nextjs'}>
-        Code on github
+      <Button onClick={() => window.open(url, '_blank')}>
+        Source on github
       </Button>
     </LeftSection>
   </Section>
