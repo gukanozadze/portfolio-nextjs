@@ -12,7 +12,7 @@ export const projects = [
     title: 'Custom CRM',
     description: 'Interconnecting tables, users, support, pdf and details',
     image: '/images/customcrm.png',
-    tags: ['React', 'Redux', 'Node', 'Postgres'],
+    tags: ['React', 'Redux', 'Node', 'Tailwind'],
     source: '',
     visit: '',
     id: 2,
