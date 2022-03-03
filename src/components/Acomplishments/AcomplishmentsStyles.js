@@ -25,20 +25,17 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  height: 166px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
-
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: 88px;
     padding: 12px;
     
     &:nth-child(2n){
@@ -72,6 +69,7 @@ export const BoxText = styled.p`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;

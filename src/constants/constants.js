@@ -51,9 +51,47 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Wrote first "hello world" project in C++' },
-  { year: 2017, text: "Started learning web development" },
+  { year: 2014, text: 'Wrote first "hello world" project in C++' },
+  { year: 2015, text: "Discovered javascript and web development" },
+  { year: 2016, text: "Started working as a javascript developer" },
+  { year: 2017, text: 'Worked as a Junior React/NodeJS Web developer' },
   { year: 2018, text: "Started freelancing career" },
-  { year: 2019, text: "Worked as Full-Time MERN stack developer" },
-  { year: 2020, text: "Completed 30+ projects" },
+  { year: 2019, text: "Completed 30+ projects" },
+  { year: 2020, text: "Worked as a Middle Full-stack Developer" },
+  { year: 2021, text: "developed" },
 ];
+
+export const slickSettings = {
+  dots: true,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  initialSlide: 0,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};

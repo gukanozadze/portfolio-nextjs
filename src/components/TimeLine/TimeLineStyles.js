@@ -1,27 +1,15 @@
-
 import styled from 'styled-components'
+import Slider from "react-slick";
 
-export const CarouselContainer = styled.ul`
+export const CarouselContainer = styled(Slider)`
   max-width: 1040px;
   background: #0F1624;
-  padding: 0rem;
-  list-style:none;
-  display: flex;
-  justify-content: space-between; 
-  /* overflow-x: hidden; */
-
   margin-left: 32px;
-  &:first-of-type{
+
+  &:first-of-type {
     margin-left: 0px;
   }
-
   margin-bottom: 80px;
-
-  //remove scrollbar
-  scrollbar-width: none;  
-   &::-webkit-scrollbar {
-     display: none;
-   }
 
   @media ${props => props.theme.breakpoints.sm} {
     overflow-x: scroll;
@@ -33,9 +21,9 @@ export const CarouselContainer = styled.ul`
   }
 `
 export const CarouselMobileScrollNode = styled.div`
+
   @media ${props => props.theme.breakpoints.sm} {
-    display: flex;
-    min-width: ${({ final }) => final ? `120%;` : `min-content`}
+    min-width: ${({final}) => final ? `120%;` : `min-content`}
   }
 `
 
@@ -43,11 +31,12 @@ export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
+  margin-right: 16px;
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
   }
-  
+
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
@@ -59,8 +48,7 @@ export const CarouselItem = styled.div`
     overflow: visible;
     position: relative;
     height: fit-content;
-    
-    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`}; 
+
   }
 `
 
@@ -69,7 +57,6 @@ export const CarouselItemTitle = styled.h4`
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
@@ -81,20 +68,19 @@ export const CarouselItemTitle = styled.h4`
     line-height: 28px;
     margin-bottom: 4px;
   }
-  
+
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
   }
 `
 export const CarouselItemImg = styled.svg`
-  margin-left: 21px;
-  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
-  width: 100%;
+  margin-left: 10px;
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 
   @media ${props => props.theme.breakpoints.sm} {
     -webkit-mask-image: none;
-    margin-left: 16px;
+    margin-left: 6px;
     overflow: visible;
   }
 `
