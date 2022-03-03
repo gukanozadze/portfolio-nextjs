@@ -15,8 +15,8 @@ export const projects = [
       "Responsive Music Web App that let's you add artists and music",
     image: "/images/reverbrap.png",
     tags: ["React", "Node", "MongoDB", "Youtube API"],
-    source: "https://reverbpap.com",
-    visit: "",
+    source: "",
+    visit: "https://reverbpap.com",
     id: 11,
   },
 
@@ -52,7 +52,7 @@ export const projects = [
     title: "Mima Online Poker",
     description:
         "Online gambling platform, with slots, live casino and roulette",
-    image: "/images/onsightpro.png",
+    image: "/images/mima.png",
     tags: ["React", "NextJS", "Socket.io", "Payment"],
     source: "",
     visit: "https://mima.games/en",
