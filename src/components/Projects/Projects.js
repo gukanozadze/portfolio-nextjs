@@ -14,9 +14,9 @@ import {
   Img,
 } from "./ProjectsStyles";
 import {
-  Section,
-  SectionDivider,
-  SectionTitle,
+    Section,
+    SectionDivider, SectionText,
+    SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
@@ -24,6 +24,9 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
+      <SectionText>
+          I've worked with a range of technologies in the web development word.
+      </SectionText>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (

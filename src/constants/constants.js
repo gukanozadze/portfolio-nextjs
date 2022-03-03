@@ -61,14 +61,14 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2014, text: 'Wrote first "hello world" project in C++' },
-  { year: 2015, text: "Discovered javascript and web development" },
-  { year: 2016, text: "Started working as a javascript developer" },
-  { year: 2017, text: 'Worked as a Junior React/NodeJS Web developer' },
-  { year: 2018, text: "Started freelancing career" },
-  { year: 2019, text: "Completed 30+ projects" },
-  { year: 2020, text: "Worked as a Middle Full-stack Developer" },
-  { year: 2021, text: "Developed online live casino poker as a software engineer" },
+  { year: 2015, text: 'Wrote first "hello world" project in C++' },
+  { year: 2016, text: "Discovered javascript and web development" },
+  { year: 2017, text: "Started working as a javascript developer" },
+  { year: 2018, text: 'Worked as a Junior React/NodeJS Web developer' },
+  { year: 2019, text: "Started freelancing career" },
+  { year: 2020, text: "Completed 30+ projects, learning advanced techniques to manage big projects" },
+  { year: 2021, text: "Developed online live poker as a Middle Full-stack Developer" },
+  { year: 2022, text: "Well... it's time to do something extraordinary" },
 ];
 
 export const slickSettings = {
