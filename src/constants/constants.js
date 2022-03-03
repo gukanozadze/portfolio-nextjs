@@ -48,6 +48,16 @@ export const projects = [
     visit: "",
     id: 4,
   },
+  {
+    title: "Mima Online Poker",
+    description:
+        "Online gambling platform, with slots, live casino and roulette",
+    image: "/images/onsightpro.png",
+    tags: ["React", "NextJS", "Socket.io", "Payment"],
+    source: "",
+    visit: "https://mima.games/en",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
@@ -58,7 +68,7 @@ export const TimeLineData = [
   { year: 2018, text: "Started freelancing career" },
   { year: 2019, text: "Completed 30+ projects" },
   { year: 2020, text: "Worked as a Middle Full-stack Developer" },
-  { year: 2021, text: "developed" },
+  { year: 2021, text: "Developed online live casino poker as a software engineer" },
 ];
 
 export const slickSettings = {
