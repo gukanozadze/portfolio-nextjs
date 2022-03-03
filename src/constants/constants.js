@@ -35,7 +35,7 @@ export const projects = [
     image: "/images/scholarsite.png",
     tags: ["React", "NestJS", "Typescript", "GatsbyJS"],
     source: "",
-    visit: "",
+    visit: "https://scholarsite.io",
     id: 3,
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     image: "/images/onsightpro.png",
     tags: ["React", "NextJS", "Node", "MongoDB"],
     source: "",
-    visit: "",
+    visit: "https://www.onsightpros.com/",
     id: 4,
   },
   {
