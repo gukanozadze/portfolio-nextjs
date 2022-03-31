@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: "React Video Chat app",
+    title: "Mima Online Poker",
     description:
-      "Simple esponsive WebRTC Video Chat written in React/Node using socket.io",
-    image: "/images/webrtc.jpg",
-    tags: ["React", "Node", "Socket.io", "WebRTC"],
-    source: "https://github.com/gukanozadze/video-chat-front",
-    visit: "https://focused-wozniak-40243b.netlify.app/",
-    id: 1,
+      "Online gambling platform, with slots, live casino and roulette",
+    image: "/images/mima.png",
+    tags: ["React", "NextJS", "Socket.io", "Payment"],
+    source: "",
+    visit: "https://mima.games/en",
+    id: 5,
   },
   {
     title: "Reverbrap",
@@ -48,15 +48,16 @@ export const projects = [
     visit: "https://www.onsightpros.com/",
     id: 4,
   },
+
   {
-    title: "Mima Online Poker",
+    title: "React Video Chat app",
     description:
-        "Online gambling platform, with slots, live casino and roulette",
-    image: "/images/mima.png",
-    tags: ["React", "NextJS", "Socket.io", "Payment"],
-    source: "",
-    visit: "https://mima.games/en",
-    id: 5,
+      "Simple esponsive WebRTC Video Chat written in React/Node using socket.io",
+    image: "/images/webrtc.jpg",
+    tags: ["React", "Node", "Socket.io", "WebRTC"],
+    source: "https://github.com/gukanozadze/video-chat-front",
+    visit: "https://focused-wozniak-40243b.netlify.app/",
+    id: 1,
   },
 ];
 
