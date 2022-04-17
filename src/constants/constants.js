@@ -10,10 +10,10 @@ export const projects = [
     id: 5,
   },
   {
-    title: "MyClothe | E-Commercre CRM Demo",
+    title: "MyClothe | Full-stack E-Commercre CRM Demo",
     description:
       "Simple yet pragmatic full stack application, you can withit create products and check my code.",
-    image: "/images/myclothe-1.jpg",
+    image: "/images/myclothe-1.png",
     tags: ["React", "Nest", "TypeScript", "REST/CRUD"],
     source: "https://github.com/gukanozadze/myclothe-front",
     visit: "https://www.myclothe.club/",
