@@ -10,6 +10,16 @@ export const projects = [
     id: 5,
   },
   {
+    title: "MyClothe | E-Commercre CRM Demo",
+    description:
+      "Simple yet pragmatic full stack application, you can withit create products and check my code.",
+    image: "/images/myclothe-1.jpg",
+    tags: ["React", "Nest", "TypeScript", "REST/CRUD"],
+    source: "https://github.com/gukanozadze/myclothe-front",
+    visit: "https://www.myclothe.club/",
+    id: 1,
+  },
+  {
     title: "Reverbrap",
     description:
       "Responsive Music Web App that let's you add artists and music",
@@ -49,16 +59,7 @@ export const projects = [
     id: 4,
   },
 
-  {
-    title: "React Video Chat app",
-    description:
-      "Simple esponsive WebRTC Video Chat written in React/Node using socket.io",
-    image: "/images/webrtc.jpg",
-    tags: ["React", "Node", "Socket.io", "WebRTC"],
-    source: "https://github.com/gukanozadze/video-chat-front",
-    visit: "https://focused-wozniak-40243b.netlify.app/",
-    id: 1,
-  },
+
 ];
 
 export const TimeLineData = [

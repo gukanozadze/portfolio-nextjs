@@ -1,10 +1,8 @@
 import React from "react"
 
 import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents"
-import Button from "../../styles/GlobalComponents/Button"
 import { LeftSection } from "./HeroStyles"
 
-const url = 'https://github.com/gukanozadze/portfolio-nextjs'
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
@@ -13,11 +11,8 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I'm passionate software developer I can create anything you want. Beauty of coding is that it is infinite.
+        I'm passionate software developer I can create anything you want. I want to always keep growing, learning and improving. I want to create something that I'm passionate about.
       </SectionText>
-      <Button onClick={() => window.open(url, '_blank')}>
-        Source on github
-      </Button>
     </LeftSection>
   </Section>
 )
