@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "MyClothe | Full-stack E-Commercre CRM Demo",
     description:
-      "Simple yet pragmatic full stack application, you can withit create products and check my code.",
+      "Simple yet pragmatic full stack application, you can visi click buy or create products and check my code.",
     image: "/images/myclothe-1.png",
     tags: ["React", "Nest", "TypeScript", "REST/CRUD"],
     source: "https://github.com/gukanozadze/myclothe-front",
@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/reverbrap.png",
     tags: ["React", "Node", "MongoDB", "Youtube API"],
     source: "",
-    visit: "https://reverbpap.com",
+    visit: "https://reverbrap.com",
     id: 11,
   },
 

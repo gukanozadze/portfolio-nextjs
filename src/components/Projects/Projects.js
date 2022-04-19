@@ -14,9 +14,9 @@ import {
   Img,
 } from "./ProjectsStyles";
 import {
-    Section,
-    SectionDivider, SectionText,
-    SectionTitle,
+  Section,
+  SectionDivider, SectionText,
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
@@ -24,9 +24,9 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
-      <SectionText>
-          I've worked with a range of technologies in the web development word.
-      </SectionText>
+    <SectionText>
+      I've worked with a range of technologies in the web development word.
+    </SectionText>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
@@ -46,8 +46,8 @@ const Projects = () => (
               </div>
               {visit && (
                 <UtilityList>
-                  <ExternalLinks href={visit}>Visit</ExternalLinks>
-                  <ExternalLinks disabled={!source} href={source}>Source</ExternalLinks>
+                  <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks>
+                  <ExternalLinks disabled={!source} href={source} target="_blank">Source</ExternalLinks>
                 </UtilityList>
               )}
             </TitleContent>
